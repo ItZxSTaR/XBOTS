@@ -2,7 +2,6 @@ from telethon import events, Button
 from config import MK1, MK2, MK3, MK4, MK5, MK6, MK7, MK8, MK9, MK10
 from AltronX.modules.help import *
 import telethon
-import telegram
 
 PythonButton = [
         [
@@ -31,9 +30,12 @@ PythonButton = [
 @MK10.on(events.NewMessage(pattern="/start"))
 async def start(event):              
     if event.is_private:
-        TEXT = f"**ʜᴇʏ​ [{event.sender.first_name}](tg://user?id={event.sender.id}),\n\nɪ ᴀᴍ [ᴀʟᴛʀᴏɴ ✘ ʀᴏʙᴏᴛ](https://t.me/AltronXRobot)​**\n━━━━━━━━━━━━━━━━━━━\n\n"
+        AltBot = await event.client.get_me()
+        BotName = AltBot.first_name
+        BotId = AltBot.id
+        TEXT = f"**ʜᴇʏ​ [{event.sender.first_name}](tg://user?id={event.sender.id}),\n\nɪ ᴀᴍ [{BotName}](tg://user?id={BotId})​**\n━━━━━━━━━━━━━━━━━━━\n\n"
         TEXT += f"» **ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ​ : [✘](https://t.me/ThExSTaR)**\n\n"
-        TEXT += f"» **ʟɪʙʀᴀʀʏ ᴠᴇʀsɪᴏɴ :** `{telegram.__version__}`\n"
+        TEXT += f"» **ʙᴏᴛ ꜱᴘᴀᴍ ᴠᴇʀsɪᴏɴ :** `M3.1`\n"
         TEXT += f"» **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{telethon.__version__}`\n━━━━━━━━━━━━━━━━━"
         await event.client.send_file(
                 event.chat_id,
