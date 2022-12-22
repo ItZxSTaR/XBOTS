@@ -38,7 +38,7 @@ async def spam(e):
                     reply = random.choice(RAID)
                     caption = f"{username} {reply}"
                     await e.client.send_message(e.chat_id, caption)
-                    await asyncio.sleep(0.1)
+                    await asyncio.sleep(0.3)
 
         elif e.reply_to_msg_id:             
             a = await e.get_reply_message()
@@ -56,7 +56,7 @@ async def spam(e):
                     reply = random.choice(RAID)
                     caption = f"{username} {reply}"
                     await e.client.send_message(e.chat_id, caption)
-                    await asyncio.sleep(0.1)
+                    await asyncio.sleep(0.3)
         else:
             await e.reply(usage, parse_mode=None, link_preview=None )
 
@@ -76,7 +76,7 @@ async def _(event):
     queue = que.get(event.sender_id)
     if not queue:
         return
-    await asyncio.sleep(0.1)
+    await asyncio.sleep(0.3)
     await event.client.send_message(
         entity=event.chat_id,
         message="""{}""".format(random.choice(REPLYRAID)),
@@ -202,7 +202,7 @@ async def spam(e):
                 reply = random.choice(MRAID)
                 caption = f"{username} {reply}"
                 await e.client.send_message(e.chat_id, caption)
-                await asyncio.sleep(0.1)
+                await asyncio.sleep(0.3)
         elif e.reply_to_msg_id:             
             a = await e.get_reply_message()
             b = await e.client.get_entity(a.sender_id)
@@ -214,7 +214,7 @@ async def spam(e):
                 reply = random.choice(MRAID)
                 caption = f"{username} {reply}"
                 await e.client.send_message(e.chat_id, caption)
-                await asyncio.sleep(0.1)
+                await asyncio.sleep(0.3)
         else:
             await e.reply(usage, parse_mode=None, link_preview=None )
 
@@ -245,7 +245,7 @@ async def spam(e):
                 reply = random.choice(SRAID)
                 caption = f"{username} {reply}"
                 await e.client.send_message(e.chat_id, caption)
-                await asyncio.sleep(0.1)
+                await asyncio.sleep(0.3)
         elif e.reply_to_msg_id:             
             a = await e.get_reply_message()
             b = await e.client.get_entity(a.sender_id)
@@ -257,7 +257,7 @@ async def spam(e):
                 reply = random.choice(SRAID)
                 caption = f"{username} {reply}"
                 await e.client.send_message(e.chat_id, caption)
-                await asyncio.sleep(0.1)
+                await asyncio.sleep(0.3)
         else:
             await e.reply(usage, parse_mode=None, link_preview=None )
 
@@ -288,7 +288,7 @@ async def spam(e):
                 reply = random.choice(CRAID)
                 caption = f"{username} {reply}"
                 await e.client.send_message(e.chat_id, caption)
-                await asyncio.sleep(0.1)
+                await asyncio.sleep(0.3)
         elif e.reply_to_msg_id:             
             a = await e.get_reply_message()
             b = await e.client.get_entity(a.sender_id)
@@ -300,6 +300,6 @@ async def spam(e):
                 reply = random.choice(CRAID)
                 caption = f"{username} {reply}"
                 await e.client.send_message(e.chat_id, caption)
-                await asyncio.sleep(0.1)
+                await asyncio.sleep(0.3)
         else:
             await e.reply(usage, parse_mode=None, link_preview=None )
