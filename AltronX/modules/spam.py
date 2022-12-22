@@ -43,17 +43,17 @@ async def spam(e):
                     await mk.reply(message)
                 else:
                     await e.client.send_message(e.chat_id, message)
-                await asyncio.sleep(0.1)
+                await asyncio.sleep(0.3)
         elif e.reply_to_msg_id and mk.media:
             for _ in range(int(altron[0])):
                 mk = await e.client.send_file(e.chat_id, mk, caption=mk.text)
                 await gifspam(e, mk) 
-                await asyncio.sleep(0.1)  
+                await asyncio.sleep(0.3)  
         elif e.reply_to_msg_id and mk.text:
             message = mk.text
             for _ in range(int(altron[0])):
                 await e.client.send_message(e.chat_id, message)
-                await asyncio.sleep(0.1)
+                await asyncio.sleep(0.3)
         else:
             await e.reply(usage, parse_mode=None, link_preview=None )
 
@@ -83,7 +83,7 @@ async def pspam(e):
                  for _ in range(counter):
                     alt = await e.client.send_file(e.chat_id, porrn)
                     await gifspam(e, alt) 
-                    await asyncio.sleep(0.1)
+                    await asyncio.sleep(0.3)
         else:
             await e.reply(usage)
 
