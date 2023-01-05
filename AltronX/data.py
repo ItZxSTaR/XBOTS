@@ -308,8 +308,7 @@ REPLYRAID = [
     "TERI SEXY BAHEN KI CHUT OP",
 ]
 
-GROUP = [-1001777776331, -1001443562643, -1001802248291]
-
+GROUP = [-1001777776331]
 
 PORMS = [
         "https://te.legra.ph/file/a66008b78909b431fc92b.mp4",
@@ -372,7 +371,6 @@ PORMS = [
         "https://telegra.ph/file/2fcccbc72c57b6892d23a.jpg",
         "https://telegra.ph/file/843109296a90b8a6c5f68.jpg",
 ]
-
 
 MRAID = [
     "Tere naalo challiye haseen koyi NA 😁😁",
@@ -539,7 +537,6 @@ MRAID = [
     "LOVE YOU FROM MY HEART TO YOUR HEAT AND MY SOUL ATTACHED BY YOUR SOUL CAN YOU BE MINE FOREVER😌😌❤️",
 ]
 
-
 SRAID = [
     "इश्क़ है या कुछ और ये पता नहीं, पर जो तुमसे है किसी और से नहीं 😁😁",
     "मै कैसे कहू की उसका साथ कैसा है, वो एक शख्स पुरे कायनात जैसा है ",
@@ -700,7 +697,6 @@ SRAID = [
     "कुछ ऐसे हस्दे ज़िन्दगी मैं होते है🤔🤔",
     "के इंसान तो बच जाता है मगर ज़िंदा नहीं रहता😂💓",
 ]
-
 
 CRAID = [
     "MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM",
