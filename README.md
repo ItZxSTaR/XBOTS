@@ -32,5 +32,16 @@
 </details>
 
 
+# Rᴇǫᴜɪʀᴇᴍᴇɴᴛs
+
+- `API_ID`
+
+- `API_HASH`
+
+- `PYROGRAM SESSION (V1.4)`
+
+- `OWNER_ID`
+
+
 # ꜱᴜᴘᴘᴏʀᴛ ✨
 <a href="https://t.me/TheAltron"><img src="https://img.shields.io/badge/Join-Telegram%20Channel-red.svg?logo=Telegram"></a>
