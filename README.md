@@ -23,12 +23,12 @@
 
 
 <details>
-<summary><b>ᴅᴇᴘʟᴏʏ ᴛᴏ ʜᴇʀᴏᴋᴜ</b></summary>
+<summary><b>ᴅᴇᴘʟᴏʏ ᴛᴏ ᴋᴏʏᴇʙ</b></summary>
 <br>
 
 - ⚠️ Do not forget to fork this repo. Else error can occur in deployment.
 
-
+[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=&branch=name&name=servicename)
   
 </details>
 
