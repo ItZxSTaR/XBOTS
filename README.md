@@ -34,13 +34,9 @@
 
 # Rᴇǫᴜɪʀᴇᴍᴇɴᴛs
 
-- `API_ID`
+- `10 BOT-TOKENS`
 
-- `API_HASH`
-
-- `PYROGRAM SESSION (V1.4)`
-
-- `OWNER_ID`
+- `OWNER-ID`
 
 
 # ꜱᴜᴘᴘᴏʀᴛ ✨
