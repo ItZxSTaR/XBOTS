@@ -23,6 +23,17 @@
 
 
 <details>
+<summary><b>ᴅᴇᴘʟᴏʏ ᴛᴏ ʜᴇʀᴏᴋᴜ</b></summary>
+<br>
+
+- ⚠️ Do not forget to fork this repo. Else error can occur in deployment.
+
+
+  
+</details>
+
+
+<details>
 <summary><b>sᴜᴘᴘᴏʀᴛ</b></summary>
 <br>
 
