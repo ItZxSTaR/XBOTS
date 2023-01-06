@@ -27,7 +27,7 @@
 <summary><b>ᴅᴇᴘʟᴏʏ ᴛᴏ ᴋᴏʏᴇʙ</b></summary>
 <br>
 
-[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=&branch=name&name=servicename)
+[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=&branch=name&name=thealtron)
   
 </details>
 
