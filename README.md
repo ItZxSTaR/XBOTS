@@ -33,11 +33,7 @@
 </details>
 
 
-<details>
-<summary><b>sᴜᴘᴘᴏʀᴛ</b></summary>
 <br>
 
 # ꜱᴜᴘᴘᴏʀᴛ ✨
 <a href="https://t.me/TheAltron"><img src="https://img.shields.io/badge/Join-Telegram%20Channel-red.svg?logo=Telegram"></a>
-
-</details>
