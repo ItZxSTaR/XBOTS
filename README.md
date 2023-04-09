@@ -5,7 +5,7 @@
 <p align="center"><a href="https://t.me/PyXen"><img src="https://te.legra.ph/file/07d39b85c6cea32f15259.jpg" width="400"></a></p>
 
 
-> ⭐️ Thanks to everyone for using this op XBOTS, That is the greatest pleasure we have !
+> ⭐️ Thanks to everyone for using this op XBOTS. That is the greatest pleasure we have !
 
 
 # ᴅᴇᴘʟᴏʏᴍᴇɴᴛ
@@ -24,7 +24,6 @@
 <summary><b>sᴜᴘᴘᴏʀᴛ</b></summary>
 <br>
 
-# ꜱᴜᴘᴘᴏʀᴛ ✨
 <a href="https://t.me/TheAltron"><img src="https://img.shields.io/badge/Join-Telegram%20Channel-red.svg?logo=Telegram"></a>
 
 </details>
