@@ -46,7 +46,7 @@ async def logs(legend):
         ms = (end-start).seconds
         await asyncio.sleep(1)
         await fetch.delete()
-        await X1.send_file(legend.chat_id, "AltLogs.txt", caption=f"⚡ 𝐗𝐁𝐨𝐭𝐬 𝐋𝐨𝐠𝐬 ⚡\n  » **ᴛɪᴍᴇ ᴛᴀᴋᴇɴ:** `{ms} ꜱᴇᴄᴏɴᴅꜱ`")
+        await X1.send_file(legend.chat_id, "AltLogs.txt", caption=f"⚡ **XBOTS LOGS** ⚡\n  » **ᴛɪᴍᴇ ᴛᴀᴋᴇɴ:** `{ms} ꜱᴇᴄᴏɴᴅꜱ`")
 
     elif legend.sender_id in SUDO_USERS:
         await legend.reply("» ꜱᴏʀʀʏ, ᴏɴʟʏ ᴏᴡɴᴇʀ ᴄᴀɴ ᴀᴄᴄᴇꜱꜱ ᴛʜɪꜱ ᴄᴏᴍᴍᴀɴᴅ.")
