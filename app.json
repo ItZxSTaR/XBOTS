@@ -1,5 +1,5 @@
 {
-    "name": "PythonX HERE.",
+    "name": "AXEN HERE.",
     "logo": "https://te.legra.ph/file/07d39b85c6cea32f15259.jpg",
     "keywords": [
         "telegram",
@@ -8,13 +8,8 @@
         "PythonX",
         "SpamBots"
     ],
-    "repository": "https://github.com/ItZxSTaR/TheBotSpam",
+    "repository": "https://github.com/ItZxSTaR/XBOTS",
     "env": {
-     "CMD_HNDLR": {
-            "description": "Custom command handler.",
-            "value": ".",
-            "required": false
-        },
       "BOT_TOKEN": {
         "description": "Telegram Bot Token Get This value from https://t.me/BotFather",
         "value": "",
@@ -65,35 +60,32 @@
         "value": "",
         "required": true
       },
-       "SUDO_USER": {
-            "description": "Sudo users id space by space",
-            "value": "",
-            "required": false
-        },
+      "CMD_HNDLR": {
+        "description": "Custom command handler.",
+        "value": ".",
+        "required": false
+      },
+      "SUDO_USERS": {
+        "description": "Sudo users id space by space",
+        "value": "",
+        "required": false
+      },
       "OWNER_ID": {
-            "description": "Owner Id",
-            "value": "",
-            "required": true
-        },
-        "HEROKU_API_KEY": {
-            "description": "Your Heroku api key to update your bot",
-            "value": "",
-            "required": false 
-        },
-        "HEROKU_APP_NAME": {
-            "description": "Your app name to Update your bot",
-          "value": "",
-          "required": false  
-        }
-    },
-  "addons": [
-    {
-      "plan": "heroku-postgresql",
-      "options": {
-        "version": "12"
+        "description": "Owner Id",
+        "value": "",
+        "required": true
+      },
+      "HEROKU_API_KEY": {
+        "description": "Your Heroku api key to update your bot",
+        "value": "",
+        "required": false 
+      },
+      "HEROKU_APP_NAME": {
+        "description": "Your app name to Update your bot",
+        "value": "",
+        "required": false  
       }
-    }
-  ],
+    },
   "buildpacks": [
         {
             "url": "heroku/python"

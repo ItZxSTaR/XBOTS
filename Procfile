@@ -1,1 +1,1 @@
-Altron: python -m main.py
+TheAltron: python -m main.py
