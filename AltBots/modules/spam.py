@@ -63,6 +63,8 @@ async def spam(event: events):
 
         except (IndexError, ValueError):
             await event.reply(f"😈 **Usage:**\n  » {hl}spam 13 Altron\n  » {hl}spam 13 <ʀᴇᴘʟʏ ᴛᴏ ᴛᴇxᴛ>\n\n**To do spam with replying to a user:**\n  » {hl}spam 13 Altron <ʀᴇᴘʟʏ ᴛᴏ ᴜꜱᴇʀ>")
+        except Exception as e:
+            print(e)
 
 
 @X1.on(events.NewMessage(incoming=True, pattern=r"\%spspam(?: |$)(.*)" % hl))
@@ -89,6 +91,8 @@ async def pspam(event):
                     await asyncio.sleep(0.2)
             except (IndexError, ValueError):
                 await event.reply(f"🔞 **Usage:**  {hl}pspam 13")
+            except Exception as e:
+                print(e)
 
 
 @X1.on(events.NewMessage(incoming=True, pattern=r"\%shang(?: |$)(.*)" % hl))
@@ -114,3 +118,5 @@ async def hang(e):
                     await asyncio.sleep(0.3)
             except (IndexError, ValueError):
                 await e.reply(f"😈 **Usage:** {hl}hang 10")
+            except Exception as e:
+                print(e)
