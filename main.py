@@ -1,14 +1,18 @@
-import glob
 import sys
+import glob
 import asyncio
 import logging
 import importlib
+import urllib3
+
 
 from pathlib import Path
 from config import X1, X2, X3, X4, X5, X6, X7, X8, X9, X10
 
 
 logging.basicConfig(format='[%(levelname) 5s/%(asctime)s] %(name)s: %(message)s', level=logging.WARNING)
+
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 
 def load_plugins(plugin_name):
