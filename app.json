@@ -1,6 +1,6 @@
 {
-    "name": "AXEN HERE.",
-    "logo": "https://te.legra.ph/file/07d39b85c6cea32f15259.jpg",
+    "name": "DARK RAVAN HERE.",
+    "logo": "https://graph.org/file/05cc2603544685a5f6592.jpg",
     "keywords": [
         "telegram",
         "telethon",
@@ -8,7 +8,7 @@
         "PythonX",
         "SpamBots"
     ],
-    "repository": "https://github.com/ItZxSTaR/XBOTS",
+    "repository": "https://github.com/DARKRAVANREPO/DARKRAVANWBNSPAM",
     "env": {
       "BOT_TOKEN": {
         "description": "Telegram Bot Token Get This value from https://t.me/BotFather",
