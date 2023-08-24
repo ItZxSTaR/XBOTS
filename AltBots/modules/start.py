@@ -9,9 +9,9 @@ START_BUTTON = [
     ],
     [
       Button.url("𝐍𝐄𝐓𝐖𝐎𝐑𝐊", "https://t.me/THE_WEBNET_NETWORK"),
-      Button.url("𝐆𝐑𝐎𝐔𝐏", "https://t.me/WEB_NET_CHATMASTI")
-      Button.url("𝐂𝐎𝐍𝐓𝐀𝐂𝐓", "https://t.me/WEBNET_CONTACT_BOT")
-      Button.url("𝐅𝐄𝐃𝐄𝐑𝐀𝐓𝐈𝐎𝐍", "https://t.me/WEBNET_FED")
+      Button.url("𝐆𝐑𝐎𝐔𝐏", "https://t.me/WEB_NET_CHATMASTI"),
+      Button.url("𝐂𝐎𝐍𝐓𝐀𝐂𝐓", "https://t.me/WEBNET_CONTACT_BOT"),
+      Button.url("𝐅𝐄𝐃𝐄𝐑𝐀𝐓𝐈𝐎𝐍", "https://t.me/WEBNET_FED"),
     ],
     [
         Button.url("𝐑𝐄𝐏𝐎", "https://github.com/DARKRAVANREPO/DARKRAVANWBNSPAM")
