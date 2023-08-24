@@ -5,7 +5,7 @@ from random import choice
 from telethon import events
 
 from config import X1, X2, X3, X4, X5, X6, X7, X8, X9, X10, SUDO_USERS, OWNER_ID, CMD_HNDLR as hl
-from AltBots.data import RAID, REPLYRAID, ALTRON, MRAID, SRAID, CRAID, ALTRON
+from AltBots.data import RAID, REPLYRAID, ALTRON, MRAID, SRAID, CRAID, ALTRON, NRAID, BRAID, ORAID, BIGRAID, OBIGRAID
 
 REPLY_RAID = []
 
@@ -35,9 +35,9 @@ async def raid(e):
 
         try:
             if uid in ALTRON:
-                await e.reply("BADMASHI KAREGA TUM.")
+                await e.reply("HEYYA BABBY.")
             elif uid == OWNER_ID:
-                await e.reply("BADMASHI KAREGA TUM.")
+                await e.reply("BOT OWNER HAI BABYY.")
             elif uid in SUDO_USERS:
                 await e.reply("SUDO USER HAI BABYY.")
             else:
@@ -50,7 +50,7 @@ async def raid(e):
                     await e.client.send_message(e.chat_id, caption)
                     await asyncio.sleep(0.1)
         except (IndexError, ValueError, NameError):
-            await e.reply(f"𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲: 𝐑𝐚𝐢𝐝\n  » {hl}raid <ᴄᴏᴜɴᴛ> <ᴜꜱᴇʀɴᴀᴍᴇ ᴏꜰ ᴜꜱᴇʀ>\n  » {hl}raid <ᴄᴏᴜɴᴛ> <ʀᴇᴘʟʏ ᴛᴏ ᴀ ᴜꜱᴇʀ>")
+            await e.reply(f"𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲: 𝐑𝐚𝐢𝐝\n  » {hl}raid <ᴄᴏᴜɴᴛ> <ᴜꜱᴇʀɴᴀᴍᴇ ᴏꜰ ᴜꜱᴇʀ>\n  » {hl}raid <ᴄᴏᴜɴᴛ> <ʀᴇᴘʟʏ ᴛᴏ ᴀ ᴜꜱᴇʀ>/n » ℳ𝒴 𝒟ℰ𝒱ℰℒ𝒪𝒫ℰℛ~> @Dark_Ravan_01")
         except Exception as e:
             print(e)
 
@@ -100,9 +100,9 @@ async def rraid(e):
         try:
             user_id = entity.id
             if user_id in ALTRON:
-                await e.reply("BADMASHI KAREGA TUM.")
+                await e.reply("HEYYA BABYY.")
             elif user_id == OWNER_ID:
-                await e.reply("BADMASHI KAREGA TUM.")
+                await e.reply("BOT OWNER HAI BABYY.")
             elif user_id in SUDO_USERS:
                 await e.reply("SUDO USER HAI BABYY.")
             else:
@@ -110,9 +110,9 @@ async def rraid(e):
                 check = f"{user_id}_{e.chat_id}"
                 if check not in REPLY_RAID:
                     REPLY_RAID.append(check)
-                await e.reply("» REPLYRAID IS ACTIVATED BABYY !!")
+                await e.reply("» KUCH TO BOLO BABBY!!")
         except NameError:
-            await e.reply(f"𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲: 𝐑𝐞𝐩𝐥𝐲𝐑𝐚𝐢𝐝\n  » {hl}rraid <ᴜꜱᴇʀɴᴀᴍᴇ ᴏꜰ ᴜꜱᴇʀ>\n  » {hl}rraid <ʀᴇᴘʟʏ ᴛᴏ ᴀ ᴜꜱᴇʀ>")
+            await e.reply(f"𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲: 𝐑𝐞𝐩𝐥𝐲𝐑𝐚𝐢𝐝\n  » {hl}rraid <ᴜꜱᴇʀɴᴀᴍᴇ ᴏꜰ ᴜꜱᴇʀ>\n  » {hl}rraid <ʀᴇᴘʟʏ ᴛᴏ ᴀ ᴜꜱᴇʀ>/n » ℳ𝒴 𝒟ℰ𝒱ℰℒ𝒪𝒫ℰℛ~> @Dark_Ravan_01")
 
 
 @X1.on(events.NewMessage(incoming=True, pattern=r"\%sdrraid(?: |$)(.*)" % hl))
@@ -142,7 +142,7 @@ async def drraid(e):
                 REPLY_RAID.remove(check)
             await e.reply("» RANDI KI CHUDAI DONE !! BABE")
         except NameError:
-            await e.reply(f"𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲: 𝐃𝐑𝐞𝐩𝐥𝐲𝐑𝐚𝐢𝐝\n  » {hl}drraid <ᴜꜱᴇʀɴᴀᴍᴇ ᴏꜰ ᴜꜱᴇʀ>\n  » {hl}drraid <ʀᴇᴘʟʏ ᴛᴏ ᴀ ᴜꜱᴇʀ>")
+            await e.reply(f"𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲: 𝐃𝐑𝐞𝐩𝐥𝐲𝐑𝐚𝐢𝐝\n  » {hl}drraid <ᴜꜱᴇʀɴᴀᴍᴇ ᴏꜰ ᴜꜱᴇʀ>\n  » {hl}drraid <ʀᴇᴘʟʏ ᴛᴏ ᴀ ᴜꜱᴇʀ>/n » ℳ𝒴 𝒟ℰ𝒱ℰℒ𝒪𝒫ℰℛ~> @Dark_Ravan_01")
 
 
 @X1.on(events.NewMessage(incoming=True, pattern=r"\%smraid(?: |$)(.*)" % hl))
@@ -178,7 +178,7 @@ async def mraid(e):
                 await e.client.send_message(e.chat_id, caption)
                 await asyncio.sleep(0.1)
         except (IndexError, ValueError, NameError):
-            await e.reply(f"𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲: 𝗠𝗥𝗮𝗶𝗱\n  » {hl}mraid <ᴄᴏᴜɴᴛ> <ᴜꜱᴇʀɴᴀᴍᴇ ᴏꜰ ᴜꜱᴇʀ>\n  » {hl}mraid <ᴄᴏᴜɴᴛ> <ʀᴇᴘʟʏ ᴛᴏ ᴀ ᴜꜱᴇʀ>")
+            await e.reply(f"𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲: 𝗠𝗥𝗮𝗶𝗱\n  » {hl}mraid <ᴄᴏᴜɴᴛ> <ᴜꜱᴇʀɴᴀᴍᴇ ᴏꜰ ᴜꜱᴇʀ>\n  » {hl}mraid <ᴄᴏᴜɴᴛ> <ʀᴇᴘʟʏ ᴛᴏ ᴀ ᴜꜱᴇʀ>/n » ℳ𝒴 𝒟ℰ𝒱ℰℒ𝒪𝒫ℰℛ~> @Dark_Ravan_01")
         except Exception as e:
             print(e)
 
@@ -216,7 +216,7 @@ async def sraid(e):
                 await e.client.send_message(e.chat_id, caption)
                 await asyncio.sleep(0.1)
         except (IndexError, ValueError, NameError):
-            await e.reply(f"𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲: 𝗦𝗥𝗮𝗶𝗱\n  » {hl}sraid <ᴄᴏᴜɴᴛ> <ᴜꜱᴇʀɴᴀᴍᴇ ᴏꜰ ᴜꜱᴇʀ>\n  » {hl}sraid <ᴄᴏᴜɴᴛ> <ʀᴇᴘʟʏ ᴛᴏ ᴀ ᴜꜱᴇʀ>")
+            await e.reply(f"𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲: 𝗦𝗥𝗮𝗶𝗱\n  » {hl}sraid <ᴄᴏᴜɴᴛ> <ᴜꜱᴇʀɴᴀᴍᴇ ᴏꜰ ᴜꜱᴇʀ>\n  » {hl}sraid <ᴄᴏᴜɴᴛ> <ʀᴇᴘʟʏ ᴛᴏ ᴀ ᴜꜱᴇʀ>/n » ℳ𝒴 𝒟ℰ𝒱ℰℒ𝒪𝒫ℰℛ~> @Dark_Ravan_01")
         except Exception as e:
             print(e)
 
@@ -246,11 +246,11 @@ async def craid(e):
 
         try:
             if uid in ALTRON:
-                await e.reply("BADMASHI KAREGA TUM.")
+                await e.reply("HEYYA BABBY.")
             elif uid == OWNER_ID:
-                await e.reply("BADMASHI KAREGA TUM.")
+                await e.reply("BOT OWNER HAI BABYY.")
             elif uid in SUDO_USERS:
-                await e.reply("ɴᴏ, ᴛʜɪꜱ ɢᴜʏ ɪꜱ ᴀ ꜱᴜᴅᴏ ᴜꜱᴇʀ.")
+                await e.reply("UFF SUDO USER.")
             else:
                 first_name = entity.first_name
                 counter = int(xraid[1])
@@ -261,6 +261,222 @@ async def craid(e):
                     await e.client.send_message(e.chat_id, caption)
                     await asyncio.sleep(0.1)
         except (IndexError, ValueError, NameError):
-            await e.reply(f"𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲: 𝐂𝗥𝗮𝗶𝗱\n  » {hl}raid <ᴄᴏᴜɴᴛ> <ᴜꜱᴇʀɴᴀᴍᴇ ᴏꜰ ᴜꜱᴇʀ>\n  » {hl}raid <ᴄᴏᴜɴᴛ> <ʀᴇᴘʟʏ ᴛᴏ ᴀ ᴜꜱᴇʀ>")
+            await e.reply(f"𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲: 𝐂𝗥𝗮𝗶𝗱\n  » {hl}raid <ᴄᴏᴜɴᴛ> <ᴜꜱᴇʀɴᴀᴍᴇ ᴏꜰ ᴜꜱᴇʀ>\n  » {hl}raid <ᴄᴏᴜɴᴛ> <ʀᴇᴘʟʏ ᴛᴏ ᴀ ᴜꜱᴇʀ>/n » ℳ𝒴 𝒟ℰ𝒱ℰℒ𝒪𝒫ℰℛ~> @Dark_Ravan_01")
+        except Exception as e:
+            print(e)
+
+
+@X1.on(events.NewMessage(incoming=True, pattern=r"\%sbraid(?: |$)(.*)" % hl))
+@X2.on(events.NewMessage(incoming=True, pattern=r"\%sbraid(?: |$)(.*)" % hl))
+@X3.on(events.NewMessage(incoming=True, pattern=r"\%sbraid(?: |$)(.*)" % hl))
+@X4.on(events.NewMessage(incoming=True, pattern=r"\%sbraid(?: |$)(.*)" % hl))
+@X5.on(events.NewMessage(incoming=True, pattern=r"\%sbraid(?: |$)(.*)" % hl))
+@X6.on(events.NewMessage(incoming=True, pattern=r"\%sbraid(?: |$)(.*)" % hl))
+@X7.on(events.NewMessage(incoming=True, pattern=r"\%sbraid(?: |$)(.*)" % hl))
+@X8.on(events.NewMessage(incoming=True, pattern=r"\%sbraid(?: |$)(.*)" % hl))
+@X9.on(events.NewMessage(incoming=True, pattern=r"\%sbraid(?: |$)(.*)" % hl))
+@X10.on(events.NewMessage(incoming=True, pattern=r"\%sbraid(?: |$)(.*)" % hl))
+async def sraid(e):
+     if e.sender_id in SUDO_USERS:
+        xraid = e.text.split(" ", 2)
+
+        if len(xraid) == 3:
+            entity = await e.client.get_entity(xraid[2])
+            uid = entity.id
+
+        elif e.reply_to_msg_id:             
+            a = await e.get_reply_message()
+            entity = await e.client.get_entity(a.sender_id)
+            uid = entity.id
+
+        try:
+            first_name = entity.first_name
+            counter = int(xraid[1])
+            username = f"[{first_name}](tg://user?id={uid})"
+            for _ in range(counter):
+                reply = choice(BRAID)
+                caption = f"{username} {reply}"
+                await e.client.send_message(e.chat_id, caption)
+                await asyncio.sleep(0.1)
+        except (IndexError, ValueError, NameError):
+            await e.reply(f"𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲: 𝐁𝐑𝐚𝐢𝐝\n  » {hl}braid <ᴄᴏᴜɴᴛ> <ᴜꜱᴇʀɴᴀᴍᴇ ᴏꜰ ᴜꜱᴇʀ>\n  » {hl}braid <ᴄᴏᴜɴᴛ> <ʀᴇᴘʟʏ ᴛᴏ ᴀ ᴜꜱᴇʀ>/n » ℳ𝒴 𝒟ℰ𝒱ℰℒ𝒪𝒫ℰℛ~> @Dark_Ravan_01")
+        except Exception as e:
+            print(e)
+
+
+@X1.on(events.NewMessage(incoming=True, pattern=r"\%snraid(?: |$)(.*)" % hl))
+@X2.on(events.NewMessage(incoming=True, pattern=r"\%snraid(?: |$)(.*)" % hl))
+@X3.on(events.NewMessage(incoming=True, pattern=r"\%snraid(?: |$)(.*)" % hl))
+@X4.on(events.NewMessage(incoming=True, pattern=r"\%snraid(?: |$)(.*)" % hl))
+@X5.on(events.NewMessage(incoming=True, pattern=r"\%snraid(?: |$)(.*)" % hl))
+@X6.on(events.NewMessage(incoming=True, pattern=r"\%snraid(?: |$)(.*)" % hl))
+@X7.on(events.NewMessage(incoming=True, pattern=r"\%snraid(?: |$)(.*)" % hl))
+@X8.on(events.NewMessage(incoming=True, pattern=r"\%snraid(?: |$)(.*)" % hl))
+@X9.on(events.NewMessage(incoming=True, pattern=r"\%snraid(?: |$)(.*)" % hl))
+@X10.on(events.NewMessage(incoming=True, pattern=r"\%snraid(?: |$)(.*)" % hl))
+async def craid(e):
+    if e.sender_id in SUDO_USERS:
+        xraid = e.text.split(" ", 2)
+
+        if len(xraid) == 3:
+            entity = await e.client.get_entity(xraid[2])
+            uid = entity.id
+
+        elif e.reply_to_msg_id:             
+            a = await e.get_reply_message()
+            entity = await e.client.get_entity(a.sender_id)
+            uid = entity.id
+  try:
+            if uid in ALTRON:
+                await e.reply("HEYYA BABBY.")
+            elif uid == OWNER_ID:
+                await e.reply("BOT OWNER HAI BABY.")
+            elif uid in SUDO_USERS:
+                await e.reply("UFF SUDO USER.")
+            else:
+                first_name = entity.first_name
+                counter = int(xraid[1])
+                username = f"[{first_name}](tg://user?id={uid})"
+                for _ in range(counter):
+                    reply = choice(NRAID)
+                    caption = f"{username} {reply}"
+                    await e.client.send_message(e.chat_id, caption)
+                    await asyncio.sleep(0.1)
+        except (IndexError, ValueError, NameError):
+            await e.reply(f"𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲: 𝐍𝐑𝐚𝐢𝐝\n  » {hl}nraid <ᴄᴏᴜɴᴛ> <ᴜꜱᴇʀɴᴀᴍᴇ ᴏꜰ ᴜꜱᴇʀ>\n  » {hl}nraid <ᴄᴏᴜɴᴛ> <ʀᴇᴘʟʏ ᴛᴏ ᴀ ᴜꜱᴇʀ>/n » ℳ𝒴 𝒟ℰ𝒱ℰℒ𝒪𝒫ℰℛ~> @Dark_Ravan_01")
+        except Exception as e:
+            print(e)
+
+@X1.on(events.NewMessage(incoming=True, pattern=r"\%soraid(?: |$)(.*)" % hl))
+@X2.on(events.NewMessage(incoming=True, pattern=r"\%soraid(?: |$)(.*)" % hl))
+@X3.on(events.NewMessage(incoming=True, pattern=r"\%soraid(?: |$)(.*)" % hl))
+@X4.on(events.NewMessage(incoming=True, pattern=r"\%soraid(?: |$)(.*)" % hl))
+@X5.on(events.NewMessage(incoming=True, pattern=r"\%soraid(?: |$)(.*)" % hl))
+@X6.on(events.NewMessage(incoming=True, pattern=r"\%soraid(?: |$)(.*)" % hl))
+@X7.on(events.NewMessage(incoming=True, pattern=r"\%soraid(?: |$)(.*)" % hl))
+@X8.on(events.NewMessage(incoming=True, pattern=r"\%soraid(?: |$)(.*)" % hl))
+@X9.on(events.NewMessage(incoming=True, pattern=r"\%soraid(?: |$)(.*)" % hl))
+@X10.on(events.NewMessage(incoming=True, pattern=r"\%soraid(?: |$)(.*)" % hl))
+async def raid(e):
+    if e.sender_id in SUDO_USERS:
+        xraid = e.text.split(" ", 2)
+
+        if len(xraid) == 3:
+            entity = await e.client.get_entity(xraid[2])
+            uid = entity.id
+
+        elif e.reply_to_msg_id:             
+            a = await e.get_reply_message()
+            entity = await e.client.get_entity(a.sender_id)
+            uid = entity.id
+
+        try:
+            if uid in ALTRON:
+                await e.reply("HEYYA BABBY.")
+            elif uid == OWNER_ID:
+                await e.reply("BOT OWNER HAI.")
+            elif uid in SUDO_USERS:
+                await e.reply("SUDO USER HAI BABYY.")
+            else:
+                first_name = entity.first_name
+                counter = int(xraid[1])
+                username = f"[{first_name}](tg://user?id={uid})"
+                for _ in range(counter):
+                    reply = choice(ORAID)
+                    caption = f"{username} {reply}"
+                    await e.client.send_message(e.chat_id, caption)
+                    await asyncio.sleep(0.1)
+        except (IndexError, ValueError, NameError):
+            await e.reply(f"𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲: 𝐎𝐑𝐚𝐢𝐝\n  » {hl}oraid <ᴄᴏᴜɴᴛ> <ᴜꜱᴇʀɴᴀᴍᴇ ᴏꜰ ᴜꜱᴇʀ>\n  » {hl}oraid <ᴄᴏᴜɴᴛ> <ʀᴇᴘʟʏ ᴛᴏ ᴀ ᴜꜱᴇʀ>/n » ℳ𝒴 𝒟ℰ𝒱ℰℒ𝒪𝒫ℰℛ~> @Dark_Ravan_01")
+        except Exception as e:
+            print(e)
+
+
+@X1.on(events.NewMessage(incoming=True, pattern=r"\%sbigraid(?: |$)(.*)" % hl))
+@X2.on(events.NewMessage(incoming=True, pattern=r"\%sbigraid(?: |$)(.*)" % hl))
+@X3.on(events.NewMessage(incoming=True, pattern=r"\%sbigraid(?: |$)(.*)" % hl))
+@X4.on(events.NewMessage(incoming=True, pattern=r"\%sbigraid(?: |$)(.*)" % hl))
+@X5.on(events.NewMessage(incoming=True, pattern=r"\%sbigraid(?: |$)(.*)" % hl))
+@X6.on(events.NewMessage(incoming=True, pattern=r"\%sbigraid(?: |$)(.*)" % hl))
+@X7.on(events.NewMessage(incoming=True, pattern=r"\%sbigraid(?: |$)(.*)" % hl))
+@X8.on(events.NewMessage(incoming=True, pattern=r"\%sbigraid(?: |$)(.*)" % hl))
+@X9.on(events.NewMessage(incoming=True, pattern=r"\%sbigraid(?: |$)(.*)" % hl))
+@X10.on(events.NewMessage(incoming=True, pattern=r"\%sbigraid(?: |$)(.*)" % hl))
+async def raid(e):
+    if e.sender_id in SUDO_USERS:
+        xraid = e.text.split(" ", 2)
+
+        if len(xraid) == 3:
+            entity = await e.client.get_entity(xraid[2])
+            uid = entity.id
+
+        elif e.reply_to_msg_id:             
+            a = await e.get_reply_message()
+            entity = await e.client.get_entity(a.sender_id)
+            uid = entity.id
+
+        try:
+            if uid in ALTRON:
+                await e.reply("HEYYA BABBY.")
+            elif uid == OWNER_ID:
+                await e.reply("BOT OWNER HAI.")
+            elif uid in SUDO_USERS:
+                await e.reply("SUDO USER HAI BABYY.")
+            else:
+                first_name = entity.first_name
+                counter = int(xraid[1])
+                username = f"[{first_name}](tg://user?id={uid})"
+                for _ in range(counter):
+                    reply = choice(BIGRAID)
+                    caption = f"{username} {reply}"
+                    await e.client.send_message(e.chat_id, caption)
+                    await asyncio.sleep(0.1)
+        except (IndexError, ValueError, NameError):
+            await e.reply(f"𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲: 𝐁𝐢𝐠𝐑𝐚𝐢𝐝\n  » {hl}bigraid <ᴄᴏᴜɴᴛ> <ᴜꜱᴇʀɴᴀᴍᴇ ᴏꜰ ᴜꜱᴇʀ>\n  » {hl}bigraid <ᴄᴏᴜɴᴛ> <ʀᴇᴘʟʏ ᴛᴏ ᴀ ᴜꜱᴇʀ>/n » ℳ𝒴 𝒟ℰ𝒱ℰℒ𝒪𝒫ℰℛ~> @Dark_Ravan_01")
+        except Exception as e:
+            print(e)
+
+
+@X1.on(events.NewMessage(incoming=True, pattern=r"\%sobigraid(?: |$)(.*)" % hl))
+@X2.on(events.NewMessage(incoming=True, pattern=r"\%sobigraid(?: |$)(.*)" % hl))
+@X3.on(events.NewMessage(incoming=True, pattern=r"\%sobigraid(?: |$)(.*)" % hl))
+@X4.on(events.NewMessage(incoming=True, pattern=r"\%sobigraid(?: |$)(.*)" % hl))
+@X5.on(events.NewMessage(incoming=True, pattern=r"\%sobigraid(?: |$)(.*)" % hl))
+@X6.on(events.NewMessage(incoming=True, pattern=r"\%sobigraid(?: |$)(.*)" % hl))
+@X7.on(events.NewMessage(incoming=True, pattern=r"\%sobigraid(?: |$)(.*)" % hl))
+@X8.on(events.NewMessage(incoming=True, pattern=r"\%sobigraid(?: |$)(.*)" % hl))
+@X9.on(events.NewMessage(incoming=True, pattern=r"\%sobigraid(?: |$)(.*)" % hl))
+@X10.on(events.NewMessage(incoming=True, pattern=r"\%sobigraid(?: |$)(.*)" % hl))
+async def raid(e):
+    if e.sender_id in SUDO_USERS:
+        xraid = e.text.split(" ", 2)
+
+        if len(xraid) == 3:
+            entity = await e.client.get_entity(xraid[2])
+            uid = entity.id
+
+        elif e.reply_to_msg_id:             
+            a = await e.get_reply_message()
+            entity = await e.client.get_entity(a.sender_id)
+            uid = entity.id
+
+        try:
+            if uid in ALTRON:
+                await e.reply("HEYYA BABY.")
+            elif uid == OWNER_ID:
+                await e.reply("BOT OWNER HAI.")
+            elif uid in SUDO_USERS:
+                await e.reply("SUDO USER HAI BABYY.")
+            else:
+                first_name = entity.first_name
+                counter = int(xraid[1])
+                username = f"[{first_name}](tg://user?id={uid})"
+                for _ in range(counter):
+                    reply = choice(OBIGRAID)
+                    caption = f"{username} {reply}"
+                    await e.client.send_message(e.chat_id, caption)
+                    await asyncio.sleep(0.1)
+        except (IndexError, ValueError, NameError):
+            await e.reply(f"𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲: 𝐎𝐁𝐢𝐠𝐑𝐚𝐢𝐝\n  » {hl}obigraid <ᴄᴏᴜɴᴛ> <ᴜꜱᴇʀɴᴀᴍᴇ ᴏꜰ ᴜꜱᴇʀ>\n  » {hl}obigraid <ᴄᴏᴜɴᴛ> <ʀᴇᴘʟʏ ᴛᴏ ᴀ ᴜꜱᴇʀ>/n » ℳ𝒴 𝒟ℰ𝒱ℰℒ𝒪𝒫ℰℛ~> @Dark_Ravan_01")
         except Exception as e:
             print(e)
