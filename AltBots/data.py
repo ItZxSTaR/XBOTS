@@ -367,7 +367,7 @@ PORMS = [
         "https://telegra.ph/file/9373ecb838654cbec05a5.jpg",
         "https://telegra.ph/file/43d2822225515423cadf2.jpg",
         "https://telegra.ph/file/5bd023a38386acb2dede2.jpg",
-        "https://telegra.ph/file/9685e7686e07937c0a4bf.jpg";
+        "https://telegra.ph/file/9685e7686e07937c0a4bf.jpg",
         "https://telegra.ph/file/de7b5facaae49b31b8efb.jpg",
         "https://telegra.ph/file/24e120b26d6119bfe642b.jpg",
         "https://telegra.ph/file/83504df375d9d3a294d30.jpg",
@@ -385,7 +385,7 @@ PORMS = [
         "https://telegra.ph/file/007d6043ed6553cd477e9.jpg",
         "https://telegra.ph/file/a45812d022135f472a20c.jpg",
         "https://telegra.ph/file/70bd0fe457ae0d09cd0e6.jpg",
-        "https://telegra.ph/file/a15bff4cb34353798d167.jpg "
+        "https://telegra.ph/file/a15bff4cb34353798d167.jpg"
 ]
 
 
