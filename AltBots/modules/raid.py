@@ -326,8 +326,7 @@ async def craid(e):
             a = await e.get_reply_message()
             entity = await e.client.get_entity(a.sender_id)
             uid = entity.id
-  try:
-            if uid in ALTRON:
+  try:    if uid in ALTRON:
                 await e.reply("HEYYA BABBY.")
             elif uid == OWNER_ID:
                 await e.reply("BOT OWNER HAI BABY.")
