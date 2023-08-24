@@ -8,16 +8,16 @@ HELP_STRING = f"★ 𝐖𝐁𝐍 𝐁𝐎𝐓 𝐇𝐄𝐋𝐏 𝐌𝐄𝐍𝐔 
 HELP_BUTTON = [
     [
       Button.inline("𝐒𝐏𝐀𝐌", data="spam"),
-      Button.inline("𝐑𝐀𝐈𝐃", data="raid")
+      Button.inline("𝐑𝐀𝐈𝐃", data="raid"),
     ],
     [
       Button.inline("𝐄𝐗𝐓𝐑𝐀", data="extra")
     ],
     [
       Button.url("𝐍𝐄𝐓𝐖𝐎𝐑𝐊", "https://t.me/THE_WEBNET_NETWORK"),
-      Button.url("𝐆𝐑𝐎𝐔𝐏", "https://t.me/WEB_NET_CHATMASTI")
-      Button.url("𝐂𝐎𝐍𝐓𝐀𝐂𝐓", "https://t.me/WEBNET_CONTACT_BOT")
-      Button.url("𝐅𝐄𝐃𝐄𝐑𝐀𝐓𝐈𝐎𝐍", "https://t.me/WEBNET_FED")
+      Button.url("𝐆𝐑𝐎𝐔𝐏", "https://t.me/WEB_NET_CHATMASTI"),
+      Button.url("𝐂𝐎𝐍𝐓𝐀𝐂𝐓", "https://t.me/WEBNET_CONTACT_BOT"),
+      Button.url("𝐅𝐄𝐃𝐄𝐑𝐀𝐓𝐈𝐎𝐍", "https://t.me/WEBNET_FED"),
     ]
   ]
 
@@ -139,8 +139,8 @@ async def helpback(event):
               ],
               [
                 Button.url("𝐍𝐄𝐓𝐖𝐎𝐑𝐊", "https://t.me/THE_WEBNET_NETWORK"),
-                Button.url("𝐆𝐑𝐎𝐔𝐏", "https://t.me/WEB_NET_CHATMASTI")
-                Button.url("𝐂𝐎𝐍𝐓𝐀𝐂𝐓", "https://t.me/WEBNET_CONTACT_BOT")
+                Button.url("𝐆𝐑𝐎𝐔𝐏", "https://t.me/WEB_NET_CHATMASTI"),
+                Button.url("𝐂𝐎𝐍𝐓𝐀𝐂𝐓", "https://t.me/WEBNET_CONTACT_BOT"),
                 Button.url("𝐅𝐄𝐃𝐄𝐑𝐀𝐓𝐈𝐎𝐍", "https://t.me/WEBNET_FED")
               ]
             ]
