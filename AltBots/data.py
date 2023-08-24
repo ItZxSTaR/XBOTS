@@ -760,7 +760,7 @@ BRAID= [
     
 
 OBIGRAID=[
-    "Randi Teri maa ka bhosda Teri maa ki chut Teri maa ki gand me itna pelunga dekhti rah jayegi:, 
+    "Randi Teri maa ka bhosda Teri maa ki chut Teri maa ki gand me itna pelunga dekhti rah jayegi", 
     "Teri behen ko chodo Teri maa ko chodo Tera baap hidza Teri maa Randi khote pe 1rs me deti hai sabko har Sunday free gb road pe", 
     "Teri maa Oyo me mili thi Aaj Mia Khalifa se bhi bada boobs hai uska mc ki aulad bc ke bacche"
 ]
