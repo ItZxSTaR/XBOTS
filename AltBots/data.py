@@ -759,11 +759,6 @@ BRAID= [
 ]
     
 
-OBIGRAID=[
-    "Randi Teri maa ka bhosda Teri maa ki chut Teri maa ki gand me itna pelunga dekhti rah jayegi", 
-    "Teri behen ko chodo Teri maa ko chodo Tera baap hidza Teri maa Randi khote pe 1rs me deti hai sabko har Sunday free gb road pe", 
-    "Teri maa Oyo me mili thi Aaj Mia Khalifa se bhi bada boobs hai uska mc ki aulad bc ke bacche"
-]
 
 ORAID= [
     "AAJA",
@@ -967,7 +962,12 @@ ORAID= [
     "MAT",
     "CP",
     "BOLKE",
+    "Randi Teri maa ka bhosda Teri maa ki chut Teri maa ki gand me itna pelunga dekhti rah jayegi",
+    "Teri behen ko chodo Teri maa ko chodo Tera baap hidza Teri maa Randi khote pe 1rs me deti hai sabko har Sunday free gb road pe",
+    "Teri maa Oyo me mili thi Aaj Mia Khalifa se bhi bada boobs hai uska mc ki aulad bc ke bacche"
 ]
+
+
 
 
 
@@ -1442,3 +1442,35 @@ ARAID=[
     "𝗧𝗘𝗥𝗜 𝗠𝗔́𝗔̀𝗞𝗢 𝗞𝗛𝗨𝗟𝗘 𝗕𝗔𝗝𝗔𝗥 𝗠𝗘 𝗖𝗛𝗢𝗗 𝗗𝗔𝗟𝗔 🤣🤣💋",
     "𝗦𝗛𝗔𝗥𝗔𝗠 𝗔𝗔 𝗚𝗬𝗜 𝗛𝗔𝗜 𝗧𝗢 𝗡𝗔𝗭𝗥𝗘𝗡 𝗝𝗛𝗨𝗞𝗔 𝗟𝗜𝗝𝗜𝗬𝗘 𝗢𝗥 𝗔𝗚𝗔𝗥 𝗟𝗨𝗡𝗗 𝗠𝗘 𝗗𝗔𝗠 𝗡𝗛𝗜 𝗧𝗢 𝗦𝗛𝗜𝗟𝗔𝗝𝗘𝗘𝗧 𝗞𝗛𝗔 𝗟𝗜𝗝𝗜𝗬𝗘...🤣😂😂"
 ]
+
+LOVERAID=[
+    "❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️",
+    "❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️",
+    "❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️"
+] 
+
+WBNRAID=[
+    "◦•●◉✿ 𝐖𝐄𝐁𝐍𝐄𝐓_𝐍𝐄𝐓𝐖𝐎𝐑𝐊 ✿◉●•◦ (https://t.me/+tbFnYSUHcR5kMWQ1)",
+    "📌 𝐉ᴏɪɴ ᴀᴄᴄᴏʀᴅɪɴɢ ᴛᴏ ʏᴏᴜʀ ɴᴇᴇᴅ⬇️",
+    "➪𝐆𝐫𝐨𝐮𝐩𝐬",
+    "📌𝐂ʟᴀss 𝟷𝟶 ǫᴜɪᴢ ɢʀᴏᴜᴘ (https://t.me/+qbBRB5nMaYQzMTA1)📌",
+    "📌 𝐂ʜᴀᴛᴛɪɴɢ ɢʀᴏᴜᴘ (https://t.me/+pVPkLJVNrudlYzQ1) 📌{",
+    "📌𝐎ᴜʀ ғᴇᴅᴇʀᴀᴛɪᴏɴs ɢʀᴏᴜᴘ (https://t.me/+oof2_5yI8vFlZDI1)📌", 
+    "➪ 𝐂𝐡𝐚𝐧𝐧𝐞𝐥𝐬",
+    "📌𝐂ʟᴀss 𝟷𝟶 sᴛᴜᴅʏ ᴍᴀᴛᴇʀɪᴀʟ (https://t.me/+zFb3CsPqhJ4yZWM1)📌",
+    "📌𝐂ʟᴀss 𝟿 sᴛᴜᴅʏ ᴍᴀᴛᴇʀɪᴀʟ (https://t.me/+j4rFz-XuaW80NjNl) 📌",
+    "📌𝐂ʟᴀss 𝟷𝟶 ᴜᴅᴀᴀɴ 𝟹.𝟶 ʟᴇᴄᴜᴛʀᴇ (https://t.me/+ydXOjW2dxatiMTBl) 📌",
+    "📌𝐂ʟᴀss 𝟷𝟶 ᴜᴅᴀᴀɴ ᴅᴘᴘ ᴀɴᴅ ɴᴏᴛᴇs (https://t.me/+P8MfKTEaf8FiNzA1)📌 
+    "📌𝐂ʟᴀss 𝟷𝟶 ǫᴜɪᴢ sᴛᴏʀᴇ (https://t.me/+OYbReiqR7MMzMmRl)📌",
+    "📌𝐎ғғɪᴄɪᴀʟ ʏᴏᴜᴛᴜʙᴇ ᴄʜᴀɴɴᴇʟ📌",
+    "𝐒ᴛᴀʏ ᴄᴏɴɴᴇᴄᴛᴇᴅ ᴡɪᴛʜ ᴜs❤",
+    "❤️★彡 𝐖ᴇʙɴᴇᴛ_𝐍ᴇᴛᴡᴏʀᴋ 彡★ (https://t.me/THE_WEBNET_NETWORK)❤️",
+    "𝐅συи∂єяѕ👇🏻👇🏻👇🏻",
+    "𝐀ѕнωαиι (https://t.me/ASHWANI10)",   
+    "𝐃ινуαиѕнυ (https://t.me/Ranavanshi_Divy)",               
+    "𝐃αяк яαναи (https://t.me/dark_ravan_01)",
+    "➜ 𝐂𝐎𝐍𝐓𝐀𝐂𝐓 via @WEBNET_CONTACT_BOT",
+    "𝐓ʜᴀɴᴋs🤍🖤💜💙💚💛🧡❤️"
+]
+
+     
