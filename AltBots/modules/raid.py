@@ -5,7 +5,7 @@ from random import choice
 from telethon import events
 
 from config import X1, X2, X3, X4, X5, X6, X7, X8, X9, X10, SUDO_USERS, OWNER_ID, CMD_HNDLR as hl
-from AltBots.data import RAID, REPLYRAID, ALTRON, MRAID, SRAID, CRAID, ALTRON, NRAID, BRAID, ORAID, BIGRAID, OBIGRAID, RRAID, SHRAID, ARAID, NORAID
+from AltBots.data import RAID, REPLYRAID, ALTRON, MRAID, SRAID, CRAID, ALTRON, BRAID, ORAID, RRAID, SHRAID, ARAID, NORAID, OBRAID
 
 REPLY_RAID = []
 
@@ -386,7 +386,7 @@ async def raid(e):
                 counter = int(xraid[1])
                 username = f"[{first_name}](tg://user?id={uid})"
                 for _ in range(counter):
-                    reply = choice(BIGRAID)
+                    reply = choice(OBRAID)
                     caption = f"{username} {reply}"
                     await e.client.send_message(e.chat_id, caption)
                     await asyncio.sleep(0.1)
