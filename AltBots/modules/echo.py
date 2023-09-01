@@ -47,7 +47,8 @@ async def echo(event):
                     ECHO.append(check)
                     await event.reply("» ECHO IS ACTIVATED BABE")
         else:
-            await event.reply(f"𝗘𝗰𝗵𝗼:\n  » {hl}echo <REPLY TO A USER>")
+            await event.reply(f"𝗘𝗰𝗵𝗼:\n  » {hl}echo <REPLY TO A USER>/n » ℳ𝒴 𝒟ℰ𝒱ℰℒ𝒪𝒫ℰℛ~> @Dark_Ravan_01")
+
 
 
 @X1.on(events.NewMessage(incoming=True, pattern=r"\%srmecho(?: |$)(.*)" % hl))
@@ -79,7 +80,8 @@ async def rmecho(event):
             else:
                 await event.reply("» BAKAITI KYU KAR RIYA HAI !!")
         else:
-            await event.reply(f"𝗥𝗲𝗺𝗼𝘃𝗲 𝗘𝗰𝗵𝗼:\n  » {hl}rmecho <REPLY TO A USER>")
+            await event.reply(f"𝗥𝗲𝗺𝗼𝘃𝗲 𝗘𝗰𝗵𝗼:\n  » {hl}rmecho <REPLY TO A USER>/n » ℳ𝒴 𝒟ℰ𝒱ℰℒ𝒪𝒫ℰℛ~> @Dark_Ravan_01")
+
 
 
 @X1.on(events.NewMessage(incoming=True))
