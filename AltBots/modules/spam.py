@@ -59,10 +59,10 @@ async def spam(event: events):
                     await event.client.send_message(event.chat_id, message)
                     await asyncio.sleep(0.2)
             else:
-                await event.reply(f"😈 **Usage:**\n  » {hl}SPAM 1 WBN\n  » {hl}spam 13 <ʀᴇᴘʟʏ ᴛᴏ ᴛᴇxᴛ>\n\n**To do spam with replying to a user:**\n  » {hl}spam 13 WBN <ʀᴇᴘʟʏ ᴛᴏ ᴜꜱᴇʀ> » 𝒟ℰ𝒱ℰℒ𝒪𝒫ℰℛ~> @Dark_Ravan_01")
+                await event.reply(f"😈 **Usage:**\n  » {hl}SPAM 1 WBN\n  » {hl}spam 13 <ʀᴇᴘʟʏ ᴛᴏ ᴛᴇxᴛ>\n\n**To do spam with replying to a user:**\n  » {hl}spam 13 WBN <ʀᴇᴘʟʏ ᴛᴏ ᴜꜱᴇʀ>/n » 𝒟ℰ𝒱ℰℒ𝒪𝒫ℰℛ~> @Dark_Ravan_01")
 
         except (IndexError, ValueError):
-            await event.reply(f"😈 **Usage:**\n  » {hl}SPAM 1 WBN\n  » {hl}spam 13 <ʀᴇᴘʟʏ ᴛᴏ ᴛᴇxᴛ>\n\n**To do spam with replying to a user:**\n  » {hl}spam 13 WBN <ʀᴇᴘʟʏ ᴛᴏ ᴜꜱᴇʀ> » 𝒟ℰ𝒱ℰℒ𝒪𝒫ℰℛ~> @Dark_Ravan_01")
+            await event.reply(f"😈 **Usage:**\n  » {hl}SPAM 1 WBN\n  » {hl}spam 13 <ʀᴇᴘʟʏ ᴛᴏ ᴛᴇxᴛ>\n\n**To do spam with replying to a user:**\n  » {hl}spam 13 WBN <ʀᴇᴘʟʏ ᴛᴏ ᴜꜱᴇʀ>/n » 𝒟ℰ𝒱ℰℒ𝒪𝒫ℰℛ~> @Dark_Ravan_01")
         except Exception as e:
             print(e)
 
